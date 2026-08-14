@@ -1,18 +1,102 @@
-# React + Vite
+# 💻 React Computer Information
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React practice project that displays computer information using reusable components and cards.
 
-Currently, two official plugins are available:
+## 📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is created for practicing the basic concepts of React.
 
-## React Compiler
+The page displays several computer cards with simple information such as:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 💻 Computer Name
+- 📅 Year
+- 🛡️ Warranty
+- 💰 Price
+- 🔢 Quantity Counter
 
-Note: This will impact Vite dev & build performances.
+The project contains a single page and does **not** use React Router.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive Navbar
+- Computer Information Cards
+- Reusable React Components
+- Quantity Counter
+- Simple and clean UI
+- Icons for computer information
+- No Routing
+
+## 🛠️ Technologies
+
+- React
+- JavaScript
+- Tailwind CSS
+- Lucide React Icons
+- Vite
+
+## 📚 React Concepts Practiced
+
+- Components
+- Props
+- `useState`
+- Event Handling
+- `.map()`
+- Arrays and Objects
+- Conditional Rendering
+- Reusable Components
+
+## 📦 Installation
+
+Clone the project and install the dependencies:
+
+```bash
+pnpm install
+```
+
+Install Lucide React:
+
+```bash
+pnpm add lucide-react
+```
+
+## ▶️ Run the Project
+
+```bash
+pnpm run dev
+```
+
+Then open the local development URL provided by Vite.
+
+## 📁 Project Structure
+
+```text
+src/
+├── Components/
+│   ├── Navbar.jsx
+│   ├── ComputerCard.jsx
+│   ├── Counter.jsx
+│   └── Button.jsx
+│
+├── data/
+│   └── computers.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Project Goal
+
+The main goal of this project is to practice building a simple React interface using components, props, state, and reusable UI elements.
+
+## 🔮 Future Improvements
+
+- Add search
+- Add computer filtering
+- Add more computer information
+- Add dark mode
+- Add computer details section
+
+## 👩‍💻 Practice Project
+
+This is a simple project created for React practice and learning.
