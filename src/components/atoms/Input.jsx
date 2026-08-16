@@ -1,9 +1,10 @@
-export default function Input({ type, id, placeholder, className }) {
+export default function Input({ type, id, placeholder, value, onChange }) {
   /**
    * type = text
    * id = string
    * placeholder = string
-   * className = design
+   * value = type
+   * onChange = func
    */
 
   return (
@@ -11,6 +12,8 @@ export default function Input({ type, id, placeholder, className }) {
       type={type}
       id={id}
       placeholder={placeholder}
+      value={value}
+      onChange={onChange}
       className={`border-none bg-white shadow-2xl rounded-2xl text-emerald-700 pl-3`}
     />
   );
